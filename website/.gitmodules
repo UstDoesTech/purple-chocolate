@@ -1,0 +1,3 @@
+[submodule "hargo-hugo"]
+	path = hargo-hugo
+	url = https://github.com/gethugothemes/hargo-hugo
