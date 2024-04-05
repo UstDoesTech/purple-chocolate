@@ -137,7 +137,7 @@ unsafe = true
 logo = "images/logo.png"
 home = "Home"
 # Meta data
-description = "This is meta description"
+description = "The Purple Chocolate Company is a leader in exclusive and luxury chocolate experiences."
 author = "The Purple Chocolate Company"
 # google map
 gmapAPI = "https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU&libraries=places"

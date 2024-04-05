@@ -11,9 +11,6 @@
     <loc>http://localhost:1313/hargo/site/faq/</loc>
     <lastmod>2019-10-17T11:22:16+06:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/hargo/site/</loc>
-    <lastmod>2019-10-17T11:22:16+06:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/hargo/site/blog/post-2/</loc>
     <lastmod>2019-10-17T11:22:16+06:00</lastmod>
   </url><url>
@@ -51,6 +48,9 @@
     <lastmod>2019-10-17T11:22:16+06:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/hargo/site/terms-conditions/</loc>
+    <lastmod>2019-10-17T11:22:16+06:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/hargo/site/</loc>
     <lastmod>2019-10-17T11:22:16+06:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/hargo/site/categories/</loc>
