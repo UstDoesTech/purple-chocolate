@@ -7,8 +7,8 @@ contact:
     content : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna"
     # other information comes from "config.toml"
 
-  # opennig hour
-  opennigHour:
+  # opening hour
+  openingHour:
     title : "Opening Hours"
     dayTimeList:
       - dayTime : "Monday: 9:00 – 19:00"
