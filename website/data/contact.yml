@@ -4,11 +4,11 @@ contact:
   # office
   office:
     title : "Central Office"
-    content : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna"
+    content : "You will find us in pure imagination"
     # other information comes from "config.toml"
 
-  # opening hour
-  openingHour:
+  # opennig hour
+  opennigHour:
     title : "Opening Hours"
     dayTimeList:
       - dayTime : "Monday: 9:00 – 19:00"
