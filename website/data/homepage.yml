@@ -1,9 +1,8 @@
 ############################ banner ##########################
 banner:
   enable : true
-  title : "Best Beauty Cream For Your Skin"
-  content : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
-          dolore magna aliquyam erat, sed dia"
+  title : "Savour The Richness of Elegance"
+  content : "Purple Chocolate Company is a premium chocolate brand that offers a wide range of rich and elegant flavours to our customers, as well as a unique and luxurious experience to our supply partners."
   image : "images/banner.png"
   # button
   button:
@@ -12,22 +11,20 @@ banner:
     link : "products/"
   # demo video
   video:
-    enable : true
+    enable : false
     videoURL : "https://www.youtube.com/embed/wf4F2-9UXUo"
 
 ########################## About ##############################
 about:
   enable : true
-  title : "About Our Product"
-  content : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
-          dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
-          clita kasd gubergren,"
+  title : "About Our Products"
+  content : "Purple Chocolate Company is proud to partner directly with our suppliers to ensure that our products are made with the highest quality ingredients, in an ethically sourced manner. We are committed to providing our customers with a unique and luxurious experience that is unmatched by any other chocolate brand. Our products are made with the finest ingredients and are available in a wide range of rich and elegant flavours. We are dedicated to providing our customers with the best possible experience, and we are confident that you will love our products as much as we do."
   image : "images/about.png"
 
 
 ###################### Call to action ########################
 cta:
-  enable : true
+  enable : false
   title : "Buy one Get One Free Taba Cream"
   content : "Available for limited time only. Grab one while you still can!"
   image : "images/cta.png"
@@ -44,29 +41,29 @@ material:
           dol."
   materialItem:
     # material item loop
-    - title : "Matcha Seeds"
+    - title : "Cocoa"
       image : "images/material/material-1.png"
-      content : "Lorem ipsum dolor sit amet,be consetetur sadipscing elitr, sed diam nonumy eirmod tem"
+      content : "Chocolate is nothing without Cocoa. All our cocoa is sourced ethically and sustainably directly from farmers."
       
     # material item loop
-    - title : "Aloe Vera"
+    - title : "Sugar"
       image : "images/material/material-2.png"
-      content : "Lorem ipsum dolor sit amet,be consetetur sadipscing elitr, sed diam nonumy eirmod tem"
+      content : "The sweetness of chocolate comes from sugar. Even our darkest chocolate has a little bit of sugar to give it something special. All our sugar is sourced ethically and sustainably direct from farmers."
       
     # material item loop
-    - title : "Turmeric"
+    - title : "Milk"
       image : "images/material/material-3.png"
-      content : "Lorem ipsum dolor sit amet,be consetetur sadipscing elitr, sed diam nonumy eirmod tem"
+      content : "For the creamy mouth feel, we add milk to our chocolate (but not to our dark chocolate). Our milk is sourced direct from farmers in the UK and France."
       
     # material item loop
-    - title : "Tulshi leaf"
+    - title : "Love"
       image : "images/material/material-4.png"
-      content : "Lorem ipsum dolor sit amet,be consetetur sadipscing elitr, sed diam nonumy eirmod tem"
+      content : "Love goes into everything we do, from working with our farmers to source ingredients, through to the distribution of our luxury products. Love is our gift to the world."
 
 ########################### Advantage #########################
 advantage:
-  enable : true
-  title : "Advantages Of Using <br> Our Product"
+  enable : false
+  title : "Advantages Of Using <br> Our Products"
   subtitle : "Lorem ipsum dolor sit amet, da decal consetetur<br> sadipscing elitr, sed diam nonumya eirmod"
   image : "images/advantage.png"
   advantageList:
@@ -81,7 +78,7 @@ advantage:
 
 ######################## Promo Video ##########################
 video:
-  enable : true
+  enable : false
   title : "How To Use This Product?"
   content : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
           dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et."
@@ -98,7 +95,7 @@ products:
 
 ########################## Testimonial ########################
 testimonial:
-  enable : true
+  enable : false
   title : "What People Are Saying <br> About Our Product"
   testimonialItem:
     # testimonial item loop
