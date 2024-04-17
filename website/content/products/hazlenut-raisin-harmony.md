@@ -1,20 +1,20 @@
 ---
-title: "Taba Cream"
+title: "Hazelnut Raisin Harmony"
 date: 2019-10-17T11:22:16+06:00
 draft: false
 
 # meta description
-description : "For Glowing Skin"
+description : "For Silky Hair"
 
 # product Price
-price: "20.00"
-priceBefore: "25.00"
+price: "5.00"
+# priceBefore: ""
 
 # Product Short Description
 shortDescription: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut"
 
 #product ID
-productID: "2"
+productID: "7"
 
 # type must be "products"
 type: "products"
@@ -22,10 +22,10 @@ type: "products"
 # product Images
 # first image will be shown in the product page
 images:
-  - image: "images/products/product-3.png"
-  - image: "images/products/product-2.png"
-  - image: "images/products/product-1.png"
-  - image: "images/products/product-4.png"
+  - image: "images/products/hazlenut-raisin-harmony.png"
+  # - image: "images/products/product-5.png"
+  # - image: "images/products/product-3.png"
+  # - image: "images/products/product-4.png"
 ---
 
 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea 

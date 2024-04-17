@@ -6,8 +6,57 @@
     <description>Recent content on Purple Chocolate Company</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 17 Oct 2019 11:22:16 +0600</lastBuildDate>
+    <lastBuildDate>Wed, 17 Apr 2024 07:05:16 +0600</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Alpine Milk Marvel</title>
+      <link>http://localhost:1313/products/alpine-milk-marvel/</link>
+      <pubDate>Wed, 17 Apr 2024 07:05:16 +0600</pubDate>
+      <guid>http://localhost:1313/products/alpine-milk-marvel/</guid>
+      <description>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</description>
+    </item>
+    <item>
+      <title>Bourbon Vanilla Dream</title>
+      <link>http://localhost:1313/products/bourbon-vanilla-dream/</link>
+      <pubDate>Thu, 17 Oct 2019 11:22:16 +0600</pubDate>
+      <guid>http://localhost:1313/products/bourbon-vanilla-dream/</guid>
+      <description>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</description>
+    </item>
+    <item>
+      <title>Buttons</title>
+      <link>http://localhost:1313/products/buttons/</link>
+      <pubDate>Thu, 17 Oct 2019 11:22:16 +0600</pubDate>
+      <guid>http://localhost:1313/products/buttons/</guid>
+      <description>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</description>
+    </item>
+    <item>
+      <title>Caramel Cascade Delight</title>
+      <link>http://localhost:1313/products/caramel-cascade-delight/</link>
+      <pubDate>Thu, 17 Oct 2019 11:22:16 +0600</pubDate>
+      <guid>http://localhost:1313/products/caramel-cascade-delight/</guid>
+      <description>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</description>
+    </item>
+    <item>
+      <title>Ecuadorian Elegance</title>
+      <link>http://localhost:1313/products/ecuadorian-elegance/</link>
+      <pubDate>Thu, 17 Oct 2019 11:22:16 +0600</pubDate>
+      <guid>http://localhost:1313/products/ecuadorian-elegance/</guid>
+      <description>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</description>
+    </item>
+    <item>
+      <title>Ginger Zest Adventure</title>
+      <link>http://localhost:1313/products/ginger-zest-adventure/</link>
+      <pubDate>Thu, 17 Oct 2019 11:22:16 +0600</pubDate>
+      <guid>http://localhost:1313/products/ginger-zest-adventure/</guid>
+      <description>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</description>
+    </item>
+    <item>
+      <title>Hazelnut Raisin Harmony</title>
+      <link>http://localhost:1313/products/hazlenut-raisin-harmony/</link>
+      <pubDate>Thu, 17 Oct 2019 11:22:16 +0600</pubDate>
+      <guid>http://localhost:1313/products/hazlenut-raisin-harmony/</guid>
+      <description>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</description>
+    </item>
     <item>
       <title>Human Gut Microbes Could Make Processed Foods Healthier</title>
       <link>http://localhost:1313/blog/post-2/</link>
@@ -23,66 +72,17 @@
       <description>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</description>
     </item>
     <item>
-      <title>Taba Cream</title>
-      <link>http://localhost:1313/products/taba-cream.1/</link>
+      <title>Sicilian Pistachio Splendour</title>
+      <link>http://localhost:1313/products/sicilian-pistachio-splendour/</link>
       <pubDate>Thu, 17 Oct 2019 11:22:16 +0600</pubDate>
-      <guid>http://localhost:1313/products/taba-cream.1/</guid>
+      <guid>http://localhost:1313/products/sicilian-pistachio-splendour/</guid>
       <description>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</description>
     </item>
     <item>
-      <title>Taba Cream</title>
-      <link>http://localhost:1313/products/taba-cream.2/</link>
+      <title>Velvet Truffle Indulgence</title>
+      <link>http://localhost:1313/products/velvet-truffle-indulgence/</link>
       <pubDate>Thu, 17 Oct 2019 11:22:16 +0600</pubDate>
-      <guid>http://localhost:1313/products/taba-cream.2/</guid>
-      <description>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</description>
-    </item>
-    <item>
-      <title>Taba Cream</title>
-      <link>http://localhost:1313/products/taba-cream/</link>
-      <pubDate>Thu, 17 Oct 2019 11:22:16 +0600</pubDate>
-      <guid>http://localhost:1313/products/taba-cream/</guid>
-      <description>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</description>
-    </item>
-    <item>
-      <title>Taba Facewash</title>
-      <link>http://localhost:1313/products/taba-facewash.1/</link>
-      <pubDate>Thu, 17 Oct 2019 11:22:16 +0600</pubDate>
-      <guid>http://localhost:1313/products/taba-facewash.1/</guid>
-      <description>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</description>
-    </item>
-    <item>
-      <title>Taba Facewash</title>
-      <link>http://localhost:1313/products/taba-facewash.2/</link>
-      <pubDate>Thu, 17 Oct 2019 11:22:16 +0600</pubDate>
-      <guid>http://localhost:1313/products/taba-facewash.2/</guid>
-      <description>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</description>
-    </item>
-    <item>
-      <title>Taba Facewash</title>
-      <link>http://localhost:1313/products/taba-facewash/</link>
-      <pubDate>Thu, 17 Oct 2019 11:22:16 +0600</pubDate>
-      <guid>http://localhost:1313/products/taba-facewash/</guid>
-      <description>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</description>
-    </item>
-    <item>
-      <title>Taba Shampoo</title>
-      <link>http://localhost:1313/products/taba-shampoo.1/</link>
-      <pubDate>Thu, 17 Oct 2019 11:22:16 +0600</pubDate>
-      <guid>http://localhost:1313/products/taba-shampoo.1/</guid>
-      <description>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</description>
-    </item>
-    <item>
-      <title>Taba Shampoo</title>
-      <link>http://localhost:1313/products/taba-shampoo.2/</link>
-      <pubDate>Thu, 17 Oct 2019 11:22:16 +0600</pubDate>
-      <guid>http://localhost:1313/products/taba-shampoo.2/</guid>
-      <description>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</description>
-    </item>
-    <item>
-      <title>Taba Shampoo</title>
-      <link>http://localhost:1313/products/taba-shampoo/</link>
-      <pubDate>Thu, 17 Oct 2019 11:22:16 +0600</pubDate>
-      <guid>http://localhost:1313/products/taba-shampoo/</guid>
+      <guid>http://localhost:1313/products/velvet-truffle-indulgence/</guid>
       <description>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</description>
     </item>
   </channel>
