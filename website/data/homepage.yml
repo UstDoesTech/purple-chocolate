@@ -37,8 +37,7 @@ cta:
 material:
   enable : true
   title : "Ingredients Of Our Products"
-  subtitle : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
-          dol."
+  subtitle : "Welcome to the heart of The Purple Chocolate Company, where the magic of our exquisite chocolates begins with the finest ingredients. Each component is carefully selected to ensure the highest quality and most indulgent experience. Our cocoa beans are sourced from the lush rainforests of Ivory Coast, renowned for their rich flavors and robust aroma. We use only pure, organic milk to add a creamy texture, and our sugar is sustainably harvested from the crystalline fields of East Anglia, promising sweetness that delights. At The Purple Chocolate Company, we believe that exceptional chocolate starts with exceptional ingredients, each chosen with care and responsibility, ensuring that every bite is not just delicious but also truly special."
   materialItem:
     # material item loop
     - title : "Cocoa"
@@ -48,7 +47,7 @@ material:
     # material item loop
     - title : "Sugar"
       image : "images/material/material-2.png"
-      content : "The sweetness of chocolate comes from sugar. Even our darkest chocolate has a little bit of sugar to give it something special. All our sugar is sourced ethically and sustainably direct from farmers."
+      content : "The sweetness of our chocolate comes from sugar and goes into everything, even dark chocolate. All our sugar is sourced direct from farmers."
       
     # material item loop
     - title : "Milk"
@@ -58,7 +57,7 @@ material:
     # material item loop
     - title : "Love"
       image : "images/material/material-4.png"
-      content : "Love goes into everything we do, from working with our farmers to source ingredients, through to the distribution of our luxury products. Love is our gift to the world."
+      content : "Love goes into everything we do, from working with our farmers to source ingredients, through to our retail partners. Love is our gift to the world."
 
 ########################### Advantage #########################
 advantage:
