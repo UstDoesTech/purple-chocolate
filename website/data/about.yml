@@ -1,0 +1,7 @@
+############################# about ################
+About:
+  enable : true
+  # office
+  office:
+    title : "Central Office"
+    content : "You will find us in pure imagination"

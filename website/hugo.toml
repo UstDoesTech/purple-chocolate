@@ -96,9 +96,14 @@ unsafe = true
   weight = 2
 
   [[menu.main]]
+  name = "About"
+  URL = "about/"
+  weight = 3
+
+  [[menu.main]]
   name = "Contact"
   URL = "contact/"
-  weight = 3
+  weight = 4
 
   ############# footer menu #############
   [[menu.footer]]
@@ -112,14 +117,19 @@ unsafe = true
   weight = 2
 
   [[menu.footer]]
+  name = "About"
+  URL = "about/"
+  weight = 3
+
+  [[menu.footer]]
   name = "Terms & Conditions"
   URL = "terms-conditions/"
-  weight = 3
+  weight = 4
 
   [[menu.footer]]
   name = "Contact"
   URL = "contact/"
-  weight = 4
+  weight = 5
 
 
 #################### default parameters ################################
