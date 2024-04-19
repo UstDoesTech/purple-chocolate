@@ -4,14 +4,14 @@ date: 2019-10-17T11:22:16+06:00
 draft: false
 
 # meta description
-description : "For Glowing Skin"
+description : "Indulge in a Symphony of Smooth Sophistication"
 
 # product Price
-price: "10.00"
+price: "5.50"
 # priceBefore: ""
 
 # Product Short Description
-shortDescription: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut"
+shortDescription: "Experience the exquisite fusion of rich dark chocolate and aromatic bourbon vanilla in our Bourbon Vanilla Dream. Each bite offers a luxurious escape into a world of creamy texture and deep, intoxicating vanilla tones, crafted for the true chocolate aficionado."
 
 #product ID
 productID: "3"
@@ -28,8 +28,12 @@ images:
   # - image: "images/products/product-4.png"
 ---
 
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea 
+Introducing Bourbon Vanilla Dream, a signature creation from The Purple Chocolate Company that marries the bold intensity of the finest dark chocolate with the exotic, rich flavors of bourbon vanilla. This premium chocolate bar is a testament to our commitment to excellence and innovation in chocolate craftsmanship.
 
-takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+The journey of Bourbon Vanilla Dream begins with the selection of the highest quality cocoa beans, sourced from the most reputable farms. These beans are expertly roasted to develop their deep, complex flavors, forming the perfect base for our chocolate. Into this rich foundation, we blend real bourbon vanilla, harvested from the lush tropics, where it's cured in the traditional manner to amplify its aromatic properties.
 
-Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+Each bar is infused with a hint of genuine bourbon, enhancing the vanilla's natural warmth and adding a layer of sophisticated complexity rarely found in chocolate. The resulting flavor profile is an enchanting blend of sweetness, depth, and a smooth finish that lingers delightfully on the palate.
+
+Perfectly tempered to achieve a glossy sheen and a firm snap, Bourbon Vanilla Dream is crafted for those who appreciate the finer nuances of gourmet chocolate. Whether enjoyed on its own or as a companion to your favorite after-dinner drink, this chocolate bar promises a sensory journey that celebrates the rich interplay of chocolate and vanilla.
+
+Indulge in the elegance of Bourbon Vanilla Dream—a chocolate bar designed not just to satisfy your sweet tooth, but to elevate your entire chocolate experience.

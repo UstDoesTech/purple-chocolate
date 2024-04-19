@@ -4,14 +4,14 @@ date: 2019-10-17T11:22:16+06:00
 draft: false
 
 # meta description
-description : "For Glowing Skin"
+description : "Savor the Luxe in Every Bite!"
 
 # product Price
-price: "20.00"
+price: "12.50"
 # priceBefore: "25.00"
 
 # Product Short Description
-shortDescription: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut"
+shortDescription: "Velvet Truffle Indulgence is a curated collection of gourmet truffles, each enrobed in silky smooth chocolate with a variety of decadent fillings. This elegant gift box is the epitome of chocolate luxury, perfect for special occasions or as a treat for the discerning chocolate lover."
 
 #product ID
 productID: "9"
@@ -28,8 +28,12 @@ images:
   # - image: "images/products/product-4.png"
 ---
 
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea 
+Introducing Velvet Truffle Indulgence from The Purple Chocolate Company — a treasure trove of exquisite truffles that define chocolate craftsmanship at its finest. Each truffle in this luxurious gift box is a small masterpiece, designed to deliver a sensory experience unlike any other.
 
-takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+The collection features a diverse range of flavors, each truffle handcrafted with precision and care. From the classic rich dark chocolate ganache to innovative infusions like raspberry rosewater and salted caramel, each flavor is chosen to complement the next, offering a harmonious assortment that captivates and delights.
 
-Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+Our truffles are made with only the finest ingredients, including high-quality cocoa beans sourced ethically from the best farms worldwide. The outer shell of each truffle is perfectly tempered to achieve a glossy finish that snaps delicately when bitten, revealing the lush, creamy filling inside.
+
+Velvet Truffle Indulgence is presented in a beautifully designed box that speaks of elegance and sophistication, making it an ideal gift for any occasion — be it a birthday, an anniversary, or simply a moment to express gratitude or love. The packaging itself is a nod to the luxury within, with a soft-touch finish and gold accents that elevate the unboxing experience.
+
+Indulge in Velvet Truffle Indulgence and discover the art of fine chocolate. Each truffle is not just a treat but an expression of passion and perfection. This gift box isn't just about giving chocolate; it's about sharing an experience of indulgence and luxury that will be remembered long after the last morsel has been savored.
