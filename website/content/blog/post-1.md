@@ -1,26 +1,46 @@
 ---
-title: "Lower Back Pain? Self-Administered Acupressure Could Help"
+title: "The Chocolate Production Process"
 date: 2019-10-17T11:22:16+06:00
 draft: false
-description : "this is a meta description"
+description : "Understanding the Chocolate Production Process"
 image: "images/blog/post-1.jpg"
 author: "John Doe"
 ---
 
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore
+Most people's experience with chocolate is eating it, but have you ever wondered how it's made? The process is a fascinating one that starts with the cacao tree and ends with a chocolate bar. Here's a look at the chocolate production process.
 
-aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+## Harvesting the Cacao Pods
 
-Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+The chocolate production process begins with the harvesting of cacao pods. These pods grow on the cacao tree, which is found in tropical regions around the world. The pods are harvested by hand, as they are too delicate to be picked by machines.
 
-Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilis
+## Fermenting the Cacao Beans
 
-> And yes, it does attach an image of you selecting a text on Medium instead of just quoting the text. What a mess with blog.
+Once the cacao pods have been harvested, the beans are removed from the pods and placed in large fermentation bins. The beans are left to ferment for several days, during which time they develop their characteristic chocolate flavor.
 
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore
+## Drying the Cacao Beans
 
-aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+After the beans have been fermented, they are spread out on large trays and left to dry in the sun. This process can take several days, and it is essential to ensure that the beans are completely dry before they can be roasted.
 
-Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+## Roasting the Cacao Beans
 
-Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilis
+Once the beans have been dried, they are roasted in large ovens. The roasting process brings out the rich chocolate flavor of the beans and gives them their characteristic brown color.
+
+## Grinding the Cacao Beans
+
+After the beans have been roasted, they are ground into a thick paste called chocolate liquor. This paste is then pressed to remove the cocoa butter, leaving behind a solid mass called cocoa cake.
+
+## Refining the Chocolate
+
+The cocoa cake is then ground into a fine powder and mixed with sugar, milk, and other ingredients to create chocolate. The mixture is then heated and stirred until it reaches a smooth, creamy consistency.
+
+## Tempering the Chocolate
+
+The final step in the chocolate production process is tempering. This process involves heating and cooling the chocolate to specific temperatures to ensure that it has the right texture and appearance.
+
+## Packaging the Chocolate
+
+Once the chocolate has been tempered, it is poured into molds and left to cool. The chocolate is then removed from the molds, wrapped in foil or paper, and packaged for sale.
+
+## Distributing the Chocolate
+
+The final step in the chocolate production process is distributing the finished product to stores and consumers around the world. Chocolate is a popular treat enjoyed by people of all ages, and the production process is a fascinating one that involves many steps.
