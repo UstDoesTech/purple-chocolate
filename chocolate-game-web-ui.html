@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chocolate Production Game</title>
+    <style>
+        body {
+            font-family: 'Courier New', monospace;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #E6D8C9; /* light beige */
+            color: #50306A; /* deep purple */
+        }
+        h1 {
+            text-align: center;
+            color: #7D5A9B; /* medium purple */
+        }
+        #game-container {
+            display: flex;
+            justify-content: space-between;
+        }
+        #game-status, #actions {
+            background-color: #B09EC9; /* light lavender */
+            border-radius: 5px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        #game-status {
+            width: 60%;
+        }
+        #actions {
+            width: 35%;
+        }
+        button {
+            background-color: #7D5A9B; /* medium purple */ 
+            color: #E6D8C9; /* light beige */
+            border: none;
+            padding: 10px 15px;
+            margin: 5px;
+            border-radius: 3px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            width: 100%;
+            text-align: left;
+        }
+        button:hover {
+            background-color: #50306A; /* deep purple */
+        }
+        #message-log {
+            background-color: #B09EC9; /* light lavender */
+            border-radius: 5px;
+            padding: 20px;
+            height: 150px;
+            overflow-y: auto;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .resource-icon {
+            width: 24px;
+            height: 24px;
+            vertical-align: middle;
+            margin-right: 5px;
+        }
+        #farm-visual {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Chocolate Production Game</h1>
+    <div id="game-container">
+        <div id="game-status"></div>
+        <div id="actions">
+            <button onclick="performAction('plant_tree')">🌱 Plant Tree</button>
+            <button onclick="performAction('harvest_pods')">🍫 Harvest Pods</button>
+            <button onclick="performAction('make_chocolate')">🍫 Make Chocolate</button>
+            <button onclick="performAction('sell_chocolate')">💰 Sell Chocolate</button>
+            <button onclick="performAction('hire_employee')">👨‍🌾 Hire Employee</button>
+            <button onclick="performAction('research')">🔬 Research</button>
+            <button onclick="performAction('buy_resources')">🛒 Buy Resources</button>
+        </div>
+    </div>
+    <div id="farm-visual"></div>
+    <div id="message-log"></div>
+
+    <svg style="display: none;">
+        <symbol id="tree" viewBox="0 0 32 32">
+            <rect x="14" y="24" width="4" height="8" fill="#8B4513"/>
+            <polygon points="16,0 8,16 24,16" fill="#228B22"/>
+            <polygon points="16,8 10,20 22,20" fill="#32CD32"/>
+        </symbol>
+        <symbol id="cacao-pod" viewBox="0 0 32 32">
+            <ellipse cx="16" cy="16" rx="10" ry="14" fill="#8B4513"/>
+            <ellipse cx="16" cy="16" rx="8" ry="12" fill="#D2691E"/>
+        </symbol>
+        <symbol id="chocolate-bar" viewBox="0 0 32 32">
+            <rect x="4" y="8" width="24" height="16" fill="#D2691E"/>
+            <rect x="6" y="10" width="20" height="12" fill="#8B4513"/>
+            <rect x="8" y="12" width="4" height="4" fill="#D2691E"/>
+            <rect x="14" y="12" width="4" height="4" fill="#D2691E"/>
+            <rect x="20" y="12" width="4" height="4" fill="#D2691E"/>
+            <rect x="8" y="18" width="4" height="4" fill="#D2691E"/>
+            <rect x="14" y="18" width="4" height="4" fill="#D2691E"/>
+            <rect x="20" y="18" width="4" height="4" fill="#D2691E"/>
+        </symbol>
+    </svg>
+
+    <script>
+        let gameState = {
+            day: 1,
+            season: "Spring",
+            weather: "Sunny",
+            money: 1000,
+            cacaoTrees: 0,
+            cacaoPods: 0,
+            chocolateBars: {standard: 0, premium: 0, luxury: 0},
+            employees: 0,
+            water: 100,
+            fertilizer: 50,
+            energy: 100,
+            sustainabilityScore: 50,
+            research: {
+                treeEfficiency: 0,
+                processingEfficiency: 0,
+                qualityControl: 0,
+                sustainability: 0
+            }
+        };
+
+        function updateGameStatus() {
+            const statusDiv = document.getElementById('game-status');
+            statusDiv.innerHTML = `
+                <h2>Day ${gameState.day} | ${gameState.season} | ${gameState.weather}</h2>
+                <p><svg class="resource-icon"><use href="#chocolate-bar"/></svg>Money: $${gameState.money}</p>
+                <p><svg class="resource-icon"><use href="#tree"/></svg>Cacao Trees: ${gameState.cacaoTrees}</p>
+                <p><svg class="resource-icon"><use href="#cacao-pod"/></svg>Cacao Pods: ${gameState.cacaoPods}</p>
+                <p><svg class="resource-icon"><use href="#chocolate-bar"/></svg>Chocolate Bars: Standard - ${gameState.chocolateBars.standard}, Premium - ${gameState.chocolateBars.premium}, Luxury - ${gameState.chocolateBars.luxury}</p>
+                <p>👨‍🌾 Employees: ${gameState.employees}</p>
+                <p>💧 Water: ${gameState.water}, 🌱 Fertilizer: ${gameState.fertilizer}, ⚡ Energy: ${gameState.energy}</p>
+                <p>♻️ Sustainability Score: ${gameState.sustainabilityScore}</p>
+                <p>🔬 Research: Tree Efficiency - ${gameState.research.treeEfficiency}, Processing Efficiency - ${gameState.research.processingEfficiency}, Quality Control - ${gameState.research.qualityControl}, Sustainability - ${gameState.research.sustainability}</p>
+            `;
+            updateFarmVisual();
+        }
+
+        function updateFarmVisual() {
+            const farmDiv = document.getElementById('farm-visual');
+            farmDiv.innerHTML = '';
+            for (let i = 0; i < gameState.cacaoTrees; i++) {
+                const tree = document.createElementNS("http://www.w3.org/2000/svg", "svg");
+                tree.setAttribute('width', '32');
+                tree.setAttribute('height', '32');
+                tree.innerHTML = '<use href="#tree"/>';
+                farmDiv.appendChild(tree);
+            }
+            for (let i = 0; i < Math.min(gameState.cacaoPods, 10); i++) {
+                const pod = document.createElementNS("http://www.w3.org/2000/svg", "svg");
+                pod.setAttribute('width', '32');
+                pod.setAttribute('height', '32');
+                pod.innerHTML = '<use href="#cacao-pod"/>';
+                farmDiv.appendChild(pod);
+            }
+            for (let i = 0; i < Math.min(gameState.chocolateBars.standard + gameState.chocolateBars.premium + gameState.chocolateBars.luxury, 10); i++) {
+                const bar = document.createElementNS("http://www.w3.org/2000/svg", "svg");
+                bar.setAttribute('width', '32');
+                bar.setAttribute('height', '32');
+                bar.innerHTML = '<use href="#chocolate-bar"/>';
+                farmDiv.appendChild(bar);
+            }
+        }
+
+        function logMessage(message) {
+            const logDiv = document.getElementById('message-log');
+            logDiv.innerHTML += `<p>${message}</p>`;
+            logDiv.scrollTop = logDiv.scrollHeight;
+        }
+
+        function progressDay() {
+            gameState.day++;
+            updateWeather();
+            if (gameState.day % 30 === 1) {
+                changeSeason();
+            }
+            logMessage(`Day ${gameState.day} begins. The weather is ${gameState.weather}.`);
+        }
+
+        function updateWeather() {
+            const weathers = ["Sunny", "Rainy", "Cloudy", "Stormy"];
+            gameState.weather = weathers[Math.floor(Math.random() * weathers.length)];
+        }
+
+        function changeSeason() {
+            const seasons = ["Spring", "Summer", "Autumn", "Winter"];
+            const currentIndex = seasons.indexOf(gameState.season);
+            gameState.season = seasons[(currentIndex + 1) % 4];
+            logMessage(`The season has changed to ${gameState.season}.`);
+        }
+
+        function performAction(action) {
+            switch(action) {
+                case 'plant_tree':
+                    if (gameState.money >= 50 && gameState.water >= 10 && gameState.fertilizer >= 5) {
+                        gameState.cacaoTrees++;
+                        gameState.money -= 50;
+                        gameState.water -= 10;
+                        gameState.fertilizer -= 5;
+                        logMessage("You planted a cacao tree!");
+                    } else {
+                        logMessage("Not enough resources to plant a tree.");
+                    }
+                    break;
+                case 'harvest_pods':
+                    if (gameState.cacaoTrees > 0 && gameState.energy >= 10) {
+                        const harvestedPods = Math.floor(Math.random() * 3 + 1) * gameState.cacaoTrees;
+                        gameState.cacaoPods += harvestedPods;
+                        gameState.energy -= 10;
+                        logMessage(`You harvested ${harvestedPods} cacao pods!`);
+                    } else {
+                        logMessage("Not enough resources to harvest pods.");
+                    }
+                    break;
+                case 'make_chocolate':
+                    if (gameState.cacaoPods >= 5 && gameState.energy >= 20) {
+                        const barsMade = Math.floor(gameState.cacaoPods / 5);
+                        gameState.cacaoPods -= barsMade * 5;
+                        gameState.energy -= 20;
+                        const quality = Math.random();
+                        if (quality > 0.9) {
+                            gameState.chocolateBars.luxury += barsMade;
+                            logMessage(`You made ${barsMade} luxury chocolate bars!`);
+                        } else if (quality > 0.6) {
+                            gameState.chocolateBars.premium += barsMade;
+                            logMessage(`You made ${barsMade} premium chocolate bars!`);
+                        } else {
+                            gameState.chocolateBars.standard += barsMade;
+                            logMessage(`You made ${barsMade} standard chocolate bars!`);
+                        }
+                    } else {
+                        logMessage("Not enough resources to make chocolate.");
+                    }
+                    break;
+                case 'sell_chocolate':
+                    let totalProfit = 0;
+                    for (let [quality, amount] of Object.entries(gameState.chocolateBars)) {
+                        if (amount > 0) {
+                            const basePrice = {standard: 5, premium: 8, luxury: 12}[quality];
+                            const profit = amount * basePrice;
+                            totalProfit += profit;
+                            logMessage(`You sold ${amount} ${quality} chocolate bars for $${profit}!`);
+                            gameState.chocolateBars[quality] = 0;
+                        }
+                    }
+                    if (totalProfit > 0) {
+                        gameState.money += totalProfit;
+                        logMessage(`Total profit: $${totalProfit}`);
+                    } else {
+                        logMessage("You don't have any chocolate bars to sell.");
+                    }
+                    break;
+                case 'hire_employee':
+                    if (gameState.money >= 100) {
+                        gameState.employees++;
+                        gameState.money -= 100;
+                        logMessage("You hired a new employee!");
+                    } else {
+                        logMessage("Not enough money to hire an employee.");
+                    }
+                    break;
+                case 'research':
+                    if (gameState.money >= 200) {
+                        const areas = ['treeEfficiency', 'processingEfficiency', 'qualityControl', 'sustainability'];
+                        const area = areas[Math.floor(Math.random() * areas.length)];
+                        gameState.research[area]++;
+                        gameState.money -= 200;
+                        if (area === 'sustainability') gameState.sustainabilityScore += 5;
+                        logMessage(`You upgraded ${area} research!`);
+                    } else {
+                        logMessage("Not enough money for research.");
+                    }
+                    break;
+                case 'buy_resources':
+                    if (gameState.money >= 30) {
+                        gameState.water += 10;
+                        gameState.fertilizer += 5;
+                        gameState.energy += 20;
+                        gameState.money -= 30;
+                        logMessage("You bought additional resources!");
+                    } else {
+                        logMessage("Not enough money to buy resources.");
+                    }
+                    break;
+            }
+            progressDay();
+            updateGameStatus();
+        }
+
+        updateGameStatus();
+    </script>
+</body>
+</html>
